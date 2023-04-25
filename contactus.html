@@ -5,11 +5,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-<style> 
-    *{
-                font-family: 'Roboto Slab', serif;
-            }
-            label{
+ <style>
+       *{ 
+        font-family: 'Roboto Slab', serif;
+
+       } 
+           label{
                 color: cadetblue;
                 font-size: x-large;
             }
@@ -17,8 +18,7 @@
                 width: 400px;
                 height: 25px;
                 border-radius: 10px;
-                border: 1px solid burlywood;
-                color: cadetblue;
+                border: 1px solid burlywood
             }
             input[type="text"]{
                 text-transform: capitalize;
@@ -26,14 +26,15 @@
             input[type="email"]{
                 color: chocolate;
             }
-            
             #submit:hover{
                 background-color: burlywood;
             }
             button[type="reset"]:hover{
                 color: brown;
             }
-</style>
+
+ </style>
+   
 </head>
 <body>
     <h2> Contact Us </h2>
@@ -42,22 +43,23 @@
         <table>
             <tbody>
                 <tr>
-                    <td> <label for="full Name"> Full Name: </label> </td>
-                    <td> <input type="text" id="full Name" autofocus required placeholder="Max Character lenght=40"> </td>
-                </tr>
-                <td> <label  for="mobile No"> Mobile No:</label></td>
-                <td> <input type="number" id="mobile No" > </td>
-                </tr>    
-                <tr>
-                    <td><label for="Email"> </label>Email :</td>
-                    <td> <input type="text" id="Email" autofocus required placeholder=" Ex.abc@gmail.com"> </td>
+                    <td> <label for="fullName"> Full Name:  </label> </td>
+                    <td> <input type="text" id="fullName" autofocus placeholder=" max charater length=40"required > </td>
                 </tr>
                 <tr>
-                    <td> Enquiry: </td>
-                    <td> <textarea rows="10" cols="60">  </textarea> </td>
-                </tr>
+                    <td><label for="mobileNo"> Mobile No:</label></td>
+                    <td> <input type="number" id="mobileNo" > </td>
+                </tr>  
+                <tr> 
+                    <td><label for ="Email"> Email:</label></td>
+                    <td> <input type="email" id="Email"autofocus required placeholder=" Ex. abc@gmail.com"> </td>
+                </tr> 
                 <tr>
-                    <td> <button type="submit" id="submit"> Submit </button> </td>
+                    <td><label for="enquriy"> Enquriy</label> </td>
+                    <td><textarea rows="10" cols="60">  </textarea> </td>
+                </tr> 
+                <tr>
+                    <td> <button type="submit"id="submit"> Submit </button> </td>
                     <td> <button type="reset"> Clear</button></td>
                 </tr>
             </tbody>
