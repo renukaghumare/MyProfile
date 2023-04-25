@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Index Page</title>
-     <!-- CDN Link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <title> Index</title>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            header {
+                background-color: blueviolet;
+                color:maroon ;
+             }
+             #userName{  margin-right: 60px;}
+             #number{ margin-right:60px;}
+             #home{margin-right: 70px;}
+             #TECHNOLOGYstack{margin-right: 70px;
+                                  color: brown;}
+             #education{  margin-right: 70px;
+            color: cadetblue;}
+             #personal{  margin-right: 70px;
+            color: rgb(74, 236, 236) ;}
+            #Follow{margin-right:70px;
+                             text-transform: uppercase;}
+
+            #linkedin{margin-right:50px;}
+            #google{margin-right:50px;}
+            #twitter{margin-right:50px;}
+    
+        </style>
+
+    </head>
+<header>
 <body>
-    <header>
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
-    <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    <span>mohit.sharma@gmail.com </span>
-
-
+    <p>
+        <i class="fa fa-user" aria-hidden="true"></i> <span id="userName"> Mohit Sharma</span> 
+            
+        <i class="fa fa-phone" aria-hidden="true"></i><span id=number> 1234512345</span>
+        <i class="fa fa-envelope" aria-hidden="true"></i><span> mohitsharma@gmail.com</span>
+        <br>
     </header>
-    <br> 
-    <nav>
-        <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-        <a href="contactUs.html" target="frame"> CONTACT ME </a>
-    </nav>
-    
-    <br> <br> 
-    <iframe width="1050px" height="500px" name="frame" src="home.html"> 
+<br>
+        <nav>
+            <a href="home.html" target="frame" id="home">HOME</a> 
+            <a href="techStack.html" target="frame"id="TECHNOLOGYstack">TECHNOLOGY STACK</a> 
+            <a href="education.html" target="frame" id="education"> EDUCATION </a>
+            <a href="personal.html" target="frame" id="personal"> PERSONAL </a> 
+            <a href="contactUs.html" target="frame"> CONTACT ME </a>
+        </nav>
+    <br>
+        <iframe width="1000px" height=" 500px" name=" frame" src="home.html"> </iframe>
 
-    </iframe>
+        <br> <br>
+        <span>  <strong id="Follow"> Follow me : </strong> </span>
+        <a href=" https://www.linkedin.com/login/" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true" id="linkedin"></i></a>
 
-    <br> <br> 
-    <span> Follow me </span> &nbsp; &nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i>
-    
+            <a href=" https://www.google.com/" target="_blank">
+                <i class="fa fa-google" aria-hidden="true" id="google"></i></a>  
 
+            <a href="https://twitter.com/i/flow/login" target="_blank">
+                <i class="fa fa-twitter-square" aria-hidden="true" id="twitter"></i></a> 
+
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                </i>
+
+
+    </p>
 </body>
 </html>
